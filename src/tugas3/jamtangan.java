@@ -15,5 +15,15 @@ public class jamtangan extends jam{
     void throttle(){
         System.out.println("tiktoktiktok");
     }
+
+    public String getBahanjamtangan() {
+        return bahanjamtangan;
+    }
+
+    public void setBahanjamtangan(String bahanjamtangan) {
+        this.bahanjamtangan = bahanjamtangan;
+    }
+    
+    
     
 }
