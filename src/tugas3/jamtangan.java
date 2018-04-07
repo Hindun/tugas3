@@ -10,5 +10,10 @@ package tugas3;
  * @author Ndunh
  */
 public class jamtangan extends jam{
+    private String bahanjamtangan;
+    
+    void throttle(){
+        System.out.println("tiktoktiktok");
+    }
     
 }
