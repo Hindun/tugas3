@@ -18,5 +18,12 @@ public class jamaksi {
        j.setHarga(3000);
        
        j.cetakinfo();
+       
+       System.out.print("Merknya \t");
+       System.out.println(j.getMerk());
+       System.out.print("Warnanya \t");
+       System.out.println(j.getWarna());
+       System.out.print("Harganya \t");
+       System.out.println(j.getHarga());
     }
 }
