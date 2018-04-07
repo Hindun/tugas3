@@ -16,6 +16,7 @@ public class jamaksi {
        j.setMerk("Rolex");
        j.setWarna("Hitam");
        j.setHarga(3000);
+       //gak bisa j.setbahanjamtangan();
        
        j.cetakinfo();
        
@@ -25,5 +26,14 @@ public class jamaksi {
        System.out.println(j.getWarna());
        System.out.print("Harganya \t");
        System.out.println(j.getHarga());
+       
+       jamtangan jt = new jamtangan();
+       jt.setMerk("Guess");
+       jt.setWarna("Merah");
+       jt.setHarga(5000);
+       jt.setBahanjamtangan("Plastik");
+       jt.cetakinfo();
+       System.out.println("bahan \t:"+jt.getBahanjamtangan());
+       jt.throttle();
     }
 }
