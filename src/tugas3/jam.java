@@ -10,9 +10,9 @@ package tugas3;
  * @author Ndunh
  */
 public class jam {
-    String merk;
-    String warna;
-    double harga;
+    private String merk;
+    private String warna;
+    private double harga;
     
     void cetakinfo(){
         System.out.println("Merk \t: "+merk+"\n"+
