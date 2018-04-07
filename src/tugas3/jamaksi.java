@@ -33,7 +33,29 @@ public class jamaksi {
        jt.setHarga(5000);
        jt.setBahanjamtangan("Plastik");
        jt.cetakinfo();
-       System.out.println("bahan \t:"+jt.getBahanjamtangan());
+       System.out.println("Bahan \t:"+jt.getBahanjamtangan());
        jt.throttle();
+       
+       jamdinding jd = new jamdinding();
+       jd.setMerk("Seiko");
+       jd.setWarna("Hijau");
+       jd.setHarga(10000);
+       jd.setBahanjamdinding("Polypropylene Plastic");
+       jd.setFungsijamdinding("Sebagai Penunjuk Waktu dan Penghias Dinding");
+       jd.cetakinfo();
+       System.out.println("Bahan \t:"+jd.getBahanjamdinding());
+       System.out.println("Fungsi \t:"+jd.getFungsijamdinding());
+       
+       jamweker jw = new jamweker();
+       jw.setMerk("Quartz");
+       jw.setWarna("Biru");
+       jw.setHarga(8000);
+       jw.setBahanjamweker("Stainless");
+       jw.setFungsijamweker("Sebagai Penghias Meja");
+       jw.setTenagajamweker("Baterai atau Listrik");
+       jw.cetakinfo();
+       System.out.println("Bahan \t:"+jw.getBahanjamweker());
+       System.out.println("Fungsi \t:"+jw.getFungsijamweker());
+       System.out.println("Tenaga \t:"+jw.getTenagajamweker());
     }
 }
