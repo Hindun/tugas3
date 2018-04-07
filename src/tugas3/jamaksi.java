@@ -10,5 +10,7 @@ package tugas3;
  * @author Ndunh
  */
 public class jamaksi {
-    
+    public static void main(String[] args) {
+        
+    }
 }
