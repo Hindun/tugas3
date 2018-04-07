@@ -11,6 +11,11 @@ package tugas3;
  */
 public class jamaksi {
     public static void main(String[] args) {
-        
+       jam j = new jam();
+       j.merk="Calvin Klein";
+       j.warna="Abu-abu";
+       j.harga=2000;
+       
+       j.cetakinfo();
     }
 }
