@@ -10,5 +10,7 @@ package tugas3;
  * @author Ndunh
  */
 public class jam {
-    
+    String merk;
+    String warna;
+    double harga;
 }
