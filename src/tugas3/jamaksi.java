@@ -12,9 +12,10 @@ package tugas3;
 public class jamaksi {
     public static void main(String[] args) {
        jam j = new jam();
-       j.merk="Calvin Klein";
-       j.warna="Abu-abu";
-       j.harga=2000;
+
+       j.setMerk("Rolex");
+       j.setWarna("Hitam");
+       j.setHarga(3000);
        
        j.cetakinfo();
     }
